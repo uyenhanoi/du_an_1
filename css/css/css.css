@@ -1,0 +1,453 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* header */
+
+.box-header {
+    background: rgba(16, 111, 133, 1);
+    position: fixed;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cart-account {
+    display: flex;
+    gap: 30px;
+    font-weight: 600;
+}
+
+.search form {
+    position: relative;
+}
+
+.search form input {
+    padding-left: 10px;
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
+
+.search form button {
+    position: absolute;
+    margin-top: 7px;
+    margin-left: -40px;
+    border: none;
+    background: white;
+}
+
+.store a,
+#acount,
+.fa-magnifying-glass {
+    text-decoration: none;
+    color: black;
+}
+
+.store,
+#acount {
+    border: 2px solid black;
+    padding: 3px 5px 3px 5px;
+    border-radius: 0px 10px 0px 10px;
+}
+
+.store a {
+    z-index: 1;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.fa-cart-shopping {
+    margin-top: 15px;
+}
+
+.bottom-header {
+    background: rgb(191, 185, 185);
+    border: 1px solid black;
+    height: 30px;
+}
+
+.bottom-header ul li {
+    display: inline-block;
+    font-weight: 600;
+    height: 30px;
+    transition: 0.5 ease;
+}
+
+.bottom-header ul {
+    display: flex;
+    gap: 60px;
+}
+
+ul li {
+    display: inline-block;
+    text-decoration: underline;
+}
+
+ul li :hover {
+    color: rgba(16, 111, 133, 1);
+}
+
+.categories {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    padding: 0px 10px 0px 10px;
+    display: grid;
+}
+
+.categories ul {
+    background: white;
+    width: 112%;
+    margin: 0;
+    padding: 5px;
+    margin-left: -10px;
+    margin-top: 5px;
+    border: 1px solid rgb(121, 118, 118);
+    border-radius: 3px;
+    display: none;
+}
+
+.categories ul li {
+    display: block !important;
+    height: 29px;
+    border-bottom: 1px solid rgb(121, 118, 118);
+    border-radius: 1px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.categories ul li:hover {
+    padding-left: 7px;
+}
+
+.categories:hover ul {
+    display: block;
+}
+
+
+/* end header */
+
+
+/* banner */
+
+.slide img {
+    width: 100%;
+    margin-top: 83px;
+}
+
+
+/* end baner */
+
+footer {
+    display: flex;
+    gap: 50px;
+    background: rgba(22, 21, 21, 1);
+    color: white;
+    padding: 20px 0px 20px 0px;
+}
+
+.left-footer {
+    flex: .4;
+    background: rgba(16, 111, 133, 1);
+    margin-left: 50px;
+    text-align: center;
+}
+
+.content-footer {
+    flex: 1;
+}
+
+.about-us ul {
+    padding: 0;
+}
+
+.about-us ul li {
+    display: block !important;
+}
+
+.about-us ul li a {
+    color: white;
+}
+
+.about-us ul li a:hover {
+    color: rgba(16, 111, 133, 1);
+}
+
+.abate a img {
+    margin-right: 5px;
+    width: 39px;
+}
+
+.policy {
+    flex: .5;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.main {
+    display: block;
+}
+
+.container {
+    width: 100%;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 20px;
+    font-family: "roboto";
+    padding-top: 80px;
+    padding-bottom: 5px;
+}
+
+.pro-cx {
+    font-size: 20px;
+    font-family: "roboto";
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+.product {
+    display: flex;
+    box-shadow: 0 0 5px 2px rgb(120, 116, 116);
+    border-radius: 5px;
+}
+
+.product .image {
+    padding-left: 40px;
+    padding-top: 50px;
+    margin-right: 40px;
+    padding-bottom: 20px;
+    width: 450px;
+}
+
+.main .product-detail {
+    padding-top: 50px;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+.file-content {
+    width: 300px;
+}
+
+.img-user {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.text-comment {
+    height: 70px;
+    margin-top: 40px;
+}
+
+.img {
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+}
+
+.add-comment {
+    width: 1000px;
+    padding-top: 20px;
+}
+
+.text-1 {
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 1px solid #F9F6F1;
+    background-color: #F9F6F1;
+    padding-bottom: 60px;
+    width: 1080px;
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+.sb-comment {
+    border-radius: 10px;
+    font-weight: bold;
+    color: #fff;
+    border: 1px solid darkcyan;
+    padding: 10px;
+    background-color: darkcyan;
+}
+
+.sum-relad {
+    width: 1080px;
+    display: flex;
+}
+
+.related-1 {
+    margin-left: 30px;
+    background-color: #F9F6F1;
+    border: 1px solid #F9F6F1;
+    border-radius: 10px;
+}
+
+.related-2 {
+    border-radius: 10px;
+    background-color: #F9F6F1;
+    border: 1px solid #F9F6F1;
+}
+
+.user-comment {
+    padding-top: 10px;
+}
+
+.rel-img {
+    padding-bottom: 10px;
+    padding-top: 20px;
+    width: 140px;
+}
+
+.title-product {
+    padding-top: 20px;
+    width: 245px;
+    font-weight: bold;
+}
+
+.text-relad p {
+    padding-top: 5px;
+}
+
+input[type="radio"] {
+    visibility: hidden;
+}
+
+label {
+    width: 45px;
+    border: 1px solid darkgrey;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+.name-size {
+    padding-right: 40px;
+    padding-top: 5px;
+}
+
+input:checked+label {
+    background-color: #1f5797;
+    color: #fff;
+}
+
+.price {
+    font-size: 18px;
+    padding-top: 15px;
+    color: cadetblue;
+    font-family: "roboto";
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.conect {
+    width: 400px;
+    padding-bottom: 20px;
+}
+
+.table-size {
+    display: flex;
+}
+
+.product .qty {
+    padding-top: 20px;
+    display: flex;
+    zoom: 1;
+    margin-right: 20px;
+}
+
+.qty button {
+    width: 40px;
+    height: 30px;
+    color: #fff;
+}
+
+.q-inner {
+    width: 133px;
+    border-radius: 10px;
+    border: 1px solid darkgrey;
+}
+
+.qty .btn-minute,
+.qty .btn-plus {
+    margin-left: 7px;
+    font-weight: bold;
+    color: black;
+    background-color: #fff;
+    border: 1px solid #ffffff;
+}
+
+.number {
+    padding-top: 4px;
+    padding-right: 5px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    font-family: "roboto";
+    font-weight: bold;
+}
+
+.add {
+    padding-left: 30px;
+}
+
+.add-pro {
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    background-color: darkcyan;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid darkcyan;
+    ;
+    border-radius: 10px;
+}
+
+.name-user {
+    font-weight: bold;
+}
+
+.prices {
+    font-size: 18px;
+    padding-top: 25px;
+    color: cadetblue;
+    font-family: "roboto";
+    font-weight: bold;
+    padding-bottom: 55px;
+}
+
+.testclass {
+    text-decoration: underline;
+}

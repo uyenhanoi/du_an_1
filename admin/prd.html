@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản phẩm</title>
+    <link rel="stylesheet" href="../../css/admin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <!-- header -->
+    <header class="bg-header">
+        <h1 class="bg-header">Admin</h1>
+      <form class="search" action="">
+        <input type="text" placeholder="Tìm kiếm . . . ">
+        <button class="search__btn"><i class="fa-solid fa-magnifying-glass fa-xl" style="color: #005eff;"></i></button>
+     </form>
+      <div class="element">
+          <div class="img-element-wrapper">
+              <a href=""><img src="../img/loai_the/the Master card.png" alt="" class="img__element"></a>
+              <div class="dot"></div>
+          </div>
+          <div class="controll-acount-wrapper">
+            <ul class="controll-acount">
+              <li><a href="" class="acount">Tên tài khoản</a>
+                  <ul>
+                    <li class="item-acount"><a href="">Hồ sơ</a></li>
+                    <li class="item-acount"><a href="">Cài đặt</a></li>
+                    <li class="item-acount"><a href="">Đăng xuất</a></li>
+                  </ul>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </header>
+
+    <!-- main -->
+    <div class="box-left ">
+        <div class="content-box-left">
+             <ul>
+                 <li><a href="admin.php">Trang chủ</a></li>
+                 <hr>
+                 <li><a href="admin.php?adact=sanpham">Sản phẩm</a></li>
+                 <hr>
+                 <li><span></span>
+                     <button id="diretory">Danh mục <i class="fa-solid fa-chevron-down fa-xs" style="color: rgb(0, 0, 0);"></i></button>
+                     <ul class="main_dm">
+                       <?php foreach($list_directories_main as $diretory):
+                         extract($diretory);?>
+                         <li><a href="admin.php?adact=danhmuc"><?= $ten_dmc ?></a></li>
+                         <?php endforeach;?>
+                     </ul>
+                 </li>
+                 <hr>
+                 <li><a href="admin.php?adact=khachhang">Khách hàng</a></li>
+                 <hr>
+                 <li><a href="admin.php?adact=thongke">Thống kê</a></li>
+                 <hr>
+                 <li><a href="admin.php?adact=thanhvien">Thành viên</a></li>
+             </ul>
+        </div>
+    </div>
+    <div class="products-all container-fluid">
+        <div class="prd-all__head-line">
+            <h1 class="head-line__name">
+                Sản phẩm
+            </h1>
+            <form action="" method="GET">
+                <select name="" id="">
+                    <option value="" class="child__diretory">Tất cả sản phẩm</option>
+                    <option value="" class="child__diretory"></option>
+                </select>
+            </form>
+        </div>
+        <div class="prds-row">
+            <div class="prd-col">
+                <div class="prd-col__img">
+                    <a href=""><img src="../../img/prd/anh3.jpg" alt="" class="img-prd"></a>
+                </div>
+                <div class="prd-col__content">
+                    <a href="" class="prd-col__name">Tên sản phẩm</a><br>
+                    <span class="variants"> (Có biến thể)</span><br>
+                    <span class="prd-col__dm">Danh mục: sofa</span>
+                    <div class="prd__price">
+                        <span class="price">Giá: 100.00đ</span>
+                        <span>Giảm giá: 10%</span>
+                    </div>
+                    <span class="like"> Lượt thích: 30</span>
+                </div>
+            </div>
+            <div class="prd-col">
+                <div class="prd-col__img">
+                    <img src="../../img/prd/anh3.jpg" alt="" class="img-prd">
+                </div>
+                <div class="prd-col__content">
+                    <span class="prd-col__name">Tên sản phẩm</span>
+                    <div class="prd__price">
+                        <span class="price">Giá: 100.00đ</span>
+                        <span>Giảm giá: 10%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="prd-col">
+                <div class="prd-col__img">
+                    <img src="../../img/prd/anh3.jpg" alt="" class="img-prd">
+                </div>
+                <div class="prd-col__content">
+                    <span class="prd-col__name">Tên sản phẩm</span>
+                    <div class="prd__price">
+                        <span class="price">Giá: 100.00đ</span>
+                        <span>Giảm giá: 10%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="prd-col">
+                <div class="prd-col__img">
+                    <img src="../../img/prd/anh3.jpg" alt="" class="img-prd">
+                </div>
+                <div class="prd-col__content">
+                    <span class="prd-col__name">Tên sản phẩm</span>
+                    <div class="prd__price">
+                        <span class="price">100.00đ</span>
+                        <span>Giảm giá: 10%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="prd-col">
+                <div class="prd-col__img">
+                    <img src="../../img/prd/anh3.jpg" alt="" class="img-prd">
+                </div>
+                <div class="prd-col__content">
+                    <span class="prd-col__name">Tên sản phẩm</span>
+                    <div class="prd__price">
+                        <span class="price">100.00đ</span>
+                        <span>Giảm giá: 10%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="prd-col">
+                <div class="prd-col__img">
+                    <img src="../../img/prd/anh3.jpg" alt="" class="img-prd">
+                </div>
+                <div class="prd-col__content">
+                    <span class="prd-col__name">Tên sản phẩm</span>
+                    <div class="prd__price">
+                        <span class="price">100.00đ</span>
+                        <span>Giảm giá: 10%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
