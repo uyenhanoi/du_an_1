@@ -20,6 +20,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
 
     <!-- BASE CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -27,9 +29,14 @@
 
 	<!-- SPECIFIC CSS -->
     <link href="css/home_1.css" rel="stylesheet">
+    <link href="css/listing.css" rel="stylesheet">
+		<link href="css/account.css" rel="stylesheet">
 
     <!-- YOUR CUSTOM CSS -->
     <link href="css/custom.css" rel="stylesheet">
+		<link href="css/blog.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/cart.css">
+
 
 </head>
 
@@ -213,189 +220,10 @@
 								</div>
 								<!-- /dropdown-access-->
 							</li>
-						
+							
 			</div>
 			
 		</div>
 		<!-- /main_nav -->
 	</header>
 	<!-- /header -->
-
-
-
-<main class="bg_gray">
-	
-		
-	<div class="container margin_30">
-		<div class="page_header">
-			<div class="breadcrumbs">
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Category</a></li>
-					<li>Page active</li>
-				</ul>
-		</div>
-		<h1>Sign In or Create an Account</h1>
-			
-	</div>
-	<!-- /page_header -->
-			<div class="row">
-				<div class="col-lg-4 col-md-6">
-					<div class="step first">
-						<h3>1.Thông tin nhận hàng</h3>
-					<div class="tab-content checkout">
-						<div class="tab-pane fade show active" id="tab_1" role="tabpanel" aria-labelledby="tab_1">
-							<div class="form-group">
-								<input type="email" class="form-control" placeholder="Email">
-							</div>
-			
-							<div class="row no-gutters">
-								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Tên">
-								</div>
-								
-							</div>
-							<!-- /row -->
-							<div class="row no-gutters">
-								<div class=" form-group">
-									<input type="text" class="form-control" placeholder="Địa chỉ nhận hàng">
-								</div>
-							
-							</div>
-							<!-- /row -->
-						
-							<!-- /row -->
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Số điện thoại">
-							</div>
-							
-		
-						</div>
-	
-					</div>
-					</div>
-					<!-- /step -->
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="step middle payments">
-						<h3>2. Hình thức thanh toán</h3>
-							<ul>
-								<li>
-									<label class="container_radio">Thanh toán trực tiếp sau khi nhận hàng<a href="#0" class="info" data-bs-toggle="modal" data-bs-target="#payments_method"></a>
-										<input type="radio" name="payment" checked="">
-										<span class="checkmark"></span>
-									</label>
-								</li>
-							
-							</ul>
-		
-					
-						
-					</div>
-					<!-- /step -->
-					
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="step last">
-						<h3>3. Hóa đơn</h3>
-					<div class="box_general summary">
-						<ul>
-							<li class="clearfix"><em>1x Armor Air X Fear</em>  <span>$145.00</span></li>
-							<li class="clearfix"><em>2x Armor Air Zoom Alpha</em> <span>$115.00</span></li>
-						</ul>
-						<ul>
-							<li class="clearfix"><em><strong>Tổng</strong></em>  <span>$450.00</span></li>
-							<li class="clearfix"><em><strong>Phí ship</strong></em> <span>$0</span></li>
-							
-						</ul>
-						<div class="total clearfix">Thành tiền <span>$450.00</span></div>
-				
-						
-						<a href="confirm.html" class="btn_1 full-width">Đặt hàng</a>
-					</div>
-					<!-- /box_general -->
-					</div>
-					<!-- /step -->
-				</div>
-			</div>
-			<!-- /row -->
-		</div>
-		<!-- /container -->
-	</main>
-
-
-  <footer class="revealed">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-6">
-					<!-- <h3 data-bs-target="#collapse_1">Quick Links</h3> -->
-					<div class="collapse dont-collapse-sm links" id="collapse_1">
-						<ul>
-							<li><a href="about.html">Giới thiệu</a></li>
-							<li><a href="help.html">Câu hỏi</a></li>
-							<li><a href="help.html">Hỗ trợ</a></li>
-							<li><a href="account.html">Tài khoản</a></li>
-							<li><a href="blog.html">Blog</a></li>
-							<li><a href="contacts.html">Liên hệ</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<h3 data-bs-target="#collapse_2">Mục sản phẩm</h3>
-					<div class="collapse dont-collapse-sm links" id="collapse_2">
-						<ul>
-							<li><a href="listing-grid-1-full.html">Ghế sofa</a></li>
-							<li><a href="listing-grid-2-full.html">Bàn trà</a></li>
-							<li><a href="listing-grid-1-full.html">Giường</a></li>
-		
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-						<h3 data-bs-target="#collapse_3">Contacts</h3>
-					<div class="collapse dont-collapse-sm contacts" id="collapse_3">
-						<ul>
-							<li><i class="ti-home"></i>P. Trịnh Văn Bô, Xuân Phương, Nam Từ Liêm, Hà Nội</li>
-							<li><i class="ti-headphone-alt"></i>+68 686-68-6868</li>
-							<li><i class="ti-email"></i><a href="#0">info@allaia.com</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-						<h3 data-bs-target="#collapse_4">Liên lạc</h3>
-					<div class="collapse dont-collapse-sm" id="collapse_4">
-						<div id="newsletter">
-						    <div class="form-group">
-						        <input type="email" name="email_newsletter" id="email_newsletter" class="form-control" placeholder="Nhập email của bạn">
-						        <button type="submit" id="submit-newsletter"><i class="ti-angle-double-right"></i></button>
-						    </div>
-						</div>
-						<div class="follow_us">
-							<h5>Follow Us</h5>
-							<ul>
-								<li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/twitter_icon.svg" alt="" class="lazy"></a></li>
-								<li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/facebook_icon.svg" alt="" class="lazy"></a></li>
-								<li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/instagram_icon.svg" alt="" class="lazy"></a></li>
-								<li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="img/youtube_icon.svg" alt="" class="lazy"></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			
-	</footer>
-	<!--/footer-->
-	</div>
-	<!-- page -->
-	
-	<div id="toTop"></div><!-- Back to top button -->
-	
-	<!-- COMMON SCRIPTS -->
-    <script src="js/common_scripts.min.js"></script>
-    <script src="js/main.js"></script>
-	
-	<!-- SPECIFIC SCRIPTS -->
-	<script src="js/carousel-home.min.js"></script>
-
-</body>
-</html>
