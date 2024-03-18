@@ -1,39 +1,42 @@
 <?php
-    function upload_child_directories($name){
-        $sql = "SELECT dc.*,d.* FROM damhmuc_chinh dc
-        JOIN danh_muc d ON d.id_dmc = dc.id_dmc
-        WHERE dc.ten_dmc = '$name'
-        GROUP BY ten_danhmuc";
-        $list_directory = pdo_query($sql);
-        return $list_directory;
-    }
-    // in ra all danh mục nhỏ
-    function upload_all_chiild_diretories(){
-        $sql = "SELECT * FROM danh_muc";
-        $list_child_diretories = pdo_query($sql);
-        return $list_child_diretories;
-    }
-    // in ra danh mục con trong danh mục chính "Sản phẩm nổi bật" có id = 1
-    function list_directories(){
-        $sql = "SELECT dc.*,d.ten_danhmuc FROM damhmuc_chinh dc
-        JOIN danh_muc d ON d.id_dmc = dc.id_dmc
-        HAVING dc.id_dmc = 1";
-        $list_directory = pdo_query($sql);
-        return $list_directory;
-    }
-    // In ra danh mục chính 
-    function list_directories_main(){
-        $sql = "SELECT * FROM damhmuc_chinh";
-        $list_directory_main = pdo_query($sql);
-        return $list_directory_main;
-    }
-    // in ra hết danh mục chính và trong đó có các danh mục nhỏ 
-    function directorie($name){
-        $sql = "SELECT dc.*,d.* FROM damhmuc_chinh dc
-        JOIN danh_muc d ON d.id_dmc = dc.id_dmc
-        WHERE dc.ten_dmc = '$name'";
-        $list_directory = pdo_query($sql);
-        return $list_directory;
-    }
+//Hàm này thêm 1 danh mục mới vào cơ sở dữ liệu.
+  function insert_danhmuc($tenloai){
+    //tạo câu lệnh sql để thêm danh mục mới vào bảng 'danhmuc'.
+    $sql= " INSERT INTO danhmuc(name) values ('$tenloai')";
+    //Thực hiện câu lệnh SQL.
+    pdo_execute($sql);
+  }
 
+// hàm này xóa 1 danh mục dựa trên trên ID của danh mục.
+  function delete_danhmuc($id){
+     // tạo câu lệnh SQL để xóa danh mục dựa trên ID.
+    $sql= "DELETE FROM danhmuc WHERE id=".$id;
+    pdo_execute($sql);
+  }
+//Hàm này xóa 1 danh mục dựa trên ID của danh mục.
+  function loadall_danhmuc(){
+   // câu lệnh sql để lấy danh sách tất cả danh mục.
+    $sql = "SELECT * FROM danhmuc ORDER BY name";
+    $listdanhmuc = pdo_query($sql);
+    //có query phải return trả về 
+    return $listdanhmuc;
+  }
+//Hàm này tải thông tin của một danh mục dựa trên ID của danh mục.
+  function loadone_danhmuc($id){
+    // tạo câu lệnh sql để lấy thông tin của 1 danh mục dựa trên ID.
+    $sql = "SELECT * FROM danhmuc WHERE id=".$id;
+    // thực hiện truy vấn SQL và trả về thông tin danh mục.
+    $dm = pdo_query_one($sql);
+    return $dm;
+  }
+
+  //hàm này cập nhật thông tin của danh mục.
+  function update_danhmuc($id,$tenloai){
+    //tạo câu lệnh SQL để cập nhật danh mục dựa trên ID.
+    $sql= "UPDATE danhmuc SET NAME='".$tenloai."' WHERE id=".$id;
+    // thực hiện câu lệnh SQL để cập nhật danh mục.
+        pdo_execute($sql);
+  }
 ?>
+
+
