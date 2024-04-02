@@ -14,7 +14,11 @@ if (isset($_SESSION['user'])) {
     
   
  include "../model/pdo.php";
+<<<<<<< HEAD
  include "header.php";
+=======
+include "header.php";
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
  include "../model/danhmuc.php";
  include "../model/sanpham.php";
  include "../model/taikhoan.php";
@@ -76,6 +80,12 @@ if (isset($_SESSION['user'])) {
       include "danhmuc/list.php";
       break;
 
+<<<<<<< HEAD
+=======
+
+
+    
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
       /* sản phẩm*/
       case 'addsp':
         //ktra user có click nút add hay ko ✅
@@ -103,6 +113,7 @@ if (isset($_SESSION['user'])) {
   
 
       case 'listsp':
+<<<<<<< HEAD
         $listdanhmuc=loadall_danhmuc();
         $iddm = isset($_GET['iddm']) && !empty($_GET['iddm']) ? $_GET['iddm'] : 0;
         //  $ten_dm = load_ten_dm($id_dm);
@@ -156,6 +167,28 @@ if (isset($_SESSION['user'])) {
 
 
 
+=======
+        if(isset($_POST['listok'])&&($_POST['listok'])){
+          $kyw=$_POST['kyw'];
+          $iddm=$_POST['iddm'];
+        }else{
+          $kyw="";
+          $iddm=0;
+        }
+        $listdanhmuc=loadall_danhmuc();
+        $listsanpham=loadall_sanpham($kyw,$iddm);
+        include "sanpham/list.php";
+        break;
+       
+      case 'xoasp':
+        if(isset($_GET['id'])&&($_GET['id']>0)){
+          delete_sanpham($_GET['id']);
+        }
+        $listsanpham=loadall_sanpham("",0);
+        include "sanpham/list.php";
+        break;
+  
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
       case 'suasp':
         if(isset($_GET['id'])&&($_GET['id']>0)){
          $sanpham=loadone_sanpham($_GET['id']);
@@ -184,6 +217,7 @@ if (isset($_SESSION['user'])) {
   
         }
         $listdanhmuc = loadall_danhmuc();
+<<<<<<< HEAD
       
         $iddm = isset($_GET['iddm']) && !empty($_GET['iddm']) ? $_GET['iddm'] : 0;
         //  $ten_dm = load_ten_dm($id_dm);
@@ -202,6 +236,9 @@ if (isset($_SESSION['user'])) {
          // Tính tổng số trang
          $total = count(loadall_sanpham_dm($kyw, $iddm));
          $num_pages = ceil($total / $limit);
+=======
+        $listsanpham = loadall_sanpham("",0);
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
         include "sanpham/list.php";
         break;
 
@@ -275,7 +312,10 @@ if (isset($_SESSION['user'])) {
             include "taikhoan/list.php"; // Hiển thị giao diện danh sách tài khoản
             break;
 
+<<<<<<< HEAD
             
+=======
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
           case 'dsbl':
             $listbinhluan=loadall_binhluan(0);
     

@@ -1,23 +1,37 @@
 
+<<<<<<< HEAD
 <div class="center">
+=======
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
                     <div class="row2">
          <div class="row2 font_title">
           <h1>THỐNG KÊ SẢN PHẨM THEO LOẠI</h1>
          </div>
+<<<<<<< HEAD
          <hr>
+=======
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
          <div class="row2 form_content ">
          
            <div class="row2 mb10 formds_loai">
            <table>
                         <tr>
                             <th></th>
+<<<<<<< HEAD
                             <th>MÃ DANH MỤC</th>                        
+=======
+                            <th>MÃ DANH MỤC</th>
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
                             <th>TÊN DANH MỤC</th>
                             <th>SỐ LƯỢNG</th>
                             <th>GIÁ CAO NHẤT</th>
                             <th>GIÁ THẤP NHẤT</th>
                             <th>GIÁ TRUNG BÌNH</th> 
+<<<<<<< HEAD
                          
+=======
+                           
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
                         </tr>
                         <?php
                             foreach ($listthongke as $thongke) {
@@ -35,7 +49,10 @@
                         ?>
                         
                     </table>
+<<<<<<< HEAD
                     <hr>
+=======
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
                     </div>
                     <div class="row mb10">
 
@@ -43,6 +60,7 @@
                     </div>
                 
             </div>
+<<<<<<< HEAD
         </div>
 </div>
 
@@ -87,3 +105,6 @@ table td input[type="checkbox"] {
 }
 
 </style>
+=======
+        </div>
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f

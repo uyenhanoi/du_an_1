@@ -16,10 +16,14 @@
         $sql="delete from binhluan where id=".$id;
         pdo_execute($sql);
     }
+<<<<<<< HEAD
     function loadall_bl($id) {
         $sql = "SELECT * , tk.user FROM binhluan INNER JOIN taikhoan tk ON binhluan.iduser = tk.id where idpro=".$id;
         $listbl=pdo_query($sql);
         return $listbl;
     }
+=======
+
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
     
 ?>

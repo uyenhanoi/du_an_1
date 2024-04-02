@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
   session_start();
 include "./model/pdo.php";
 include "./model/danhmuc.php";
@@ -12,6 +13,16 @@ include "view/header.php";
 if (isset($_GET['act']) && ($_GET['act'] != "")){
   $act =$_GET['act'];
   switch($act){
+=======
+include "view/header.php";
+if (isset($_GET['act']) && ($_GET['act'] != "")){
+  $act =$_GET['act'];
+  switch($act){
+    case "home":
+      include "home.php";
+      break;
+
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
     case "gioithieu":
       include "view/gioithieu.php";
       break;
@@ -19,6 +30,7 @@ if (isset($_GET['act']) && ($_GET['act'] != "")){
     case "blog":
       include "view/blog.php";
 
+<<<<<<< HEAD
 
 
 
@@ -152,11 +164,25 @@ if (isset($_GET['act']) && ($_GET['act'] != "")){
 
                   
 
+=======
+    case "listsp1":
+    include "view/listsp1.php";
+    break;
+
+    case "sanphamct":
+      include "view/chitietsanpham1.php";
+      break;
+    
+    case "account":
+      include "view/account.php";
+      break;
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
     case "cart":
       include "view/cart.php";
       break;
 }
 }else{
+<<<<<<< HEAD
     
     $listsp = loadall_sanpham_home();
 
@@ -167,6 +193,12 @@ if (isset($_GET['act']) && ($_GET['act'] != "")){
 include "view/footer.php";
 
 
+=======
+include "view/home.php";
+
+}
+include "view/footer.php";
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
 ?>
 		
 	

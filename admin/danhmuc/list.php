@@ -4,7 +4,10 @@
         <div class="function-prds-box-month-prd radius">
           
             <h3>Bảng danh mục</h3>
+<<<<<<< HEAD
             <hr>
+=======
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
             <form action="#" method="POST">
               <table class="table table--directory">
                   <thead>

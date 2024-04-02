@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
     // Kiểm tra xem biểu mẫu đã được gửi đi chưa
     if(isset($_POST['themmoi'])){
@@ -11,6 +12,9 @@
         }
     }
 ?>
+=======
+
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
 
 <div class="center">
       <section class="function-prds">
@@ -51,7 +55,11 @@
           
             <div class="input-group">
               <span class="input__name">Nội dung sản phẩm:</span>
+<<<<<<< HEAD
              <textarea name="mota" id="" cols="30" rows="10"  class="input__content input__content--content" >
+=======
+             <textarea name="" id="" cols="30" rows="10"  class="input__content input__content--content" name="mota">
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
              </textarea>
             </div>
    

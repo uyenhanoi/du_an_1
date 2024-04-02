@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 <div class="center">
+=======
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
 <div class="row">
 <div id="piechart"></div>
 
@@ -37,5 +40,8 @@ function drawChart() {
 </script>
 </div>
 
+<<<<<<< HEAD
 </div>
 
+=======
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f

@@ -6,7 +6,11 @@ function pdo_get_connection(){
     $username = "root";
     $password = "";
     try {
+<<<<<<< HEAD
         $conn = new PDO("mysql:host=$servername;dbname=du_an_1", $username, $password);
+=======
+        $conn = new PDO("mysql:host=$servername;dbname=duan_1", $username, $password);
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
         //❗ dbname là tên cơ sở dữ liệu
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         return $conn;

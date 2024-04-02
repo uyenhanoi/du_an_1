@@ -60,7 +60,11 @@
           
             <div class="input-group">
               <span class="input__name">Nội dung sản phẩm:</span>
+<<<<<<< HEAD
              <textarea name="mota" id="" cols="30" rows="10"  class="input__content input__content--content"><?=$mota?>
+=======
+             <textarea name="" id="" cols="30" rows="10"  class="input__content input__content--content" name="mota"><?=$mota?>
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
              </textarea>
             </div>
    

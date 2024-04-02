@@ -7,8 +7,13 @@ function loadall_taikhoan(){
    return $listtaikhoan;
  }
 
+<<<<<<< HEAD
 function insert_taikhoan($email, $user, $pass, $address, $tel){
   $sql= " insert into taikhoan(user, pass, email, address, tel) values('$user', '$pass', '$email', '$address', '$tel')";
+=======
+function insert_taikhoan($email,$user,$pass){
+  $sql= " INSERT INTO taikhoan (email,user,pass) values ('$email','$user','$pass')";
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
   pdo_execute($sql);
 }
 

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <footer>
+=======
+<footer class="revealed">
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3 col-md-6">
@@ -21,9 +25,13 @@
 							<li><a href="listing-grid-1-full.html">Ghế sofa</a></li>
 							<li><a href="listing-grid-2-full.html">Bàn trà</a></li>
 							<li><a href="listing-grid-1-full.html">Giường</a></li>
+<<<<<<< HEAD
 							<!-- <li><a href="listing-grid-3.html"></a></li>
 							<li><a href="listing-grid-1-full.html">Shoes</a></li>
 							<li><a href="listing-grid-1-full.html">Watches</a></li> -->
+=======
+							
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
 						</ul>
 					</div>
 				</div>
@@ -58,11 +66,17 @@
 					</div>
 				</div>
 			</div>
+<<<<<<< HEAD
+=======
+			
+	</footer>
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
 	<!--/footer-->
 	</div>
 	<!-- page -->
 	
 	<div id="toTop"></div><!-- Back to top button -->
+<<<<<<< HEAD
 
 	<div class="top_panel">
 	    <div class="container header_panel">
@@ -249,5 +263,15 @@
 		});
 	</script>
 		
+=======
+	
+	<!-- COMMON SCRIPTS -->
+    <script src="js/common_scripts.min.js"></script>
+    <script src="js/main.js"></script>
+	
+	<!-- SPECIFIC SCRIPTS -->
+	<script src="js/carousel-home.min.js"></script>
+
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
 </body>
 </html>

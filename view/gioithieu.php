@@ -10,17 +10,29 @@
 							<h2>Brand Story</h2>
 							<p >Mỗi một chi tiết, mỗi một sản phẩm và hình ảnh đều là những dấu ấn, là câu chuyện mà MOHO muốn gửi gắm đến mỗi khách hàng. MOHO hi vọng trong từng bộ sưu tập, từng sản phẩm và dịch vụ của mình sẽ trở thành một phần trong tổ ấm của mỗi gia đình Việt, như một thông điệp "mang yêu thương gửi trọn trong từng không gian sống". Hướng đến sự tiện ích, hiện đại tối giản và thân thiện môi trường là khát khao mà MOHO không ngừng theo đuổi. </p>
 							<p>Chính những khát khao lan toả biến nhà thực sự là "tổ ấm", tháng 03/2020, thương hiệu nội thất MOHO được định hình và ra đời. Là một phần của Savimex với 35 kinh nghiệm trong sản xuất và xuất khẩu nội thất sang các thị trường khó tính như: Mỹ, Nhật, Hàn,... MOHO tiếp tục kế thừa và phát huy nhằm mang đến cho người Việt những sản phẩm nội thất 100% made in Vietnam theo tiêu chuẩn quốc tế, đảm bảo an toàn sức khoẻ với chi phí hợp lý. </p>
+<<<<<<< HEAD
 							<img src="../img/about1.png" alt="" class="arrow_1">
 						</div>
 					</div>
 					<div class="col-lg-5 pl-lg-5 text-center d-none d-lg-block">
 							<img src="../img/about1.png" alt="" class="img-fluid" width="350" height="268">
+=======
+							<img src="img/arrow_about.png" alt="" class="arrow_1">
+						</div>
+					</div>
+					<div class="col-lg-5 pl-lg-5 text-center d-none d-lg-block">
+							<img src="img/about_1.svg" alt="" class="img-fluid" width="350" height="268">
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
 					</div>
 				</div>
 				<!-- /row -->
 				<div class="row justify-content-center align-items-center">
 					<div class="col-lg-5 pr-lg-5 text-center d-none d-lg-block">
+<<<<<<< HEAD
 							<img src="../img/about_2.svg" alt="" class="img-fluid" width="350" height="268">
+=======
+							<img src="img/about_2.svg" alt="" class="img-fluid" width="350" height="268">
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
 					</div>
 					<div class="col-lg-5">
 						<div class="box_about">

@@ -1,7 +1,11 @@
 <div class="center">
         <div class="function-prds-box-month-prd radius">
           <h1>DANH SÁCH BÌNH LUẬN</h1>
+<<<<<<< HEAD
        <hr>
+=======
+       
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
          <div class="row2 form_content ">
           <form action="#" method="POST">
            <table class="table table--directory">

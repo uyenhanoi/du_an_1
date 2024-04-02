@@ -1,14 +1,22 @@
 <main>
 		<div id="carousel-home">
 			<div class="owl-carousel owl-theme">
+<<<<<<< HEAD
 				<div class="owl-slide cover" style="background-image: url(../img/banner/banner0.jpg);">
+=======
+				<div class="owl-slide cover" style="background-image: url(img/banner/banner0.jpg);">
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
 					<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.5)">
 						<div class="container">
 						</div>
 					</div>
 				</div>
 				<!--/owl-slide-->
+<<<<<<< HEAD
 				<div class="owl-slide cover" style="background-image: url(../img/banner/baner3.png);">
+=======
+				<div class="owl-slide cover" style="background-image: url(img/banner/baner3.png);">
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
 					<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.5)">
 						<div class="container">
 							<div class="row justify-content-center justify-content-md-start">
@@ -17,7 +25,11 @@
 					</div>
 				</div>
 				<!--/owl-slide-->
+<<<<<<< HEAD
 				<div class="owl-slide cover" style="background-image: url(../img/banner/anh-gioi-thieu.jpg);">
+=======
+				<div class="owl-slide cover" style="background-image: url(img/banner/anh-gioi-thieu.jpg);">
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
 					<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(255, 255, 255, 0.5)">
 						<div class="container">
 							<div class="row justify-content-center justify-content-md-start">
@@ -31,7 +43,10 @@
 		</div>
 		<!--/carousel-->
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
 		<ul id="banners_grid" class="clearfix">
 			<li>
 				<a href="#0" class="img_container">
@@ -69,6 +84,7 @@
 				<span>Sản Phẩm Bán Chạy Nhất</span>
 			</div>
 			<div class="row small-gutters">
+<<<<<<< HEAD
 				<?php foreach ($listsp as $sp) { ?>
 				<div class="col-6 col-md-4 col-xl-3">
 					<form action=""></form>
@@ -77,16 +93,32 @@
 							<span class="ribbon off">-30%</span>
 							<a href="index.php?act=spct&<?= $sp['id']?>">
 								<img class="img-fluid lazy" src="upload/<?= $sp['img']?>"  alt="" >
+=======
+				<div class="col-6 col-md-4 col-xl-3">
+					<div class="grid_item">
+						<figure>
+							<span class="ribbon off">-30%</span>
+							<a href="product-detail-1.html">
+								<img  src="img/producs/anh1.jpg"  alt="" >
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
 								<!-- <img class="img-fluid lazy" src="img/products/product_placeholder_square_medium.jpg" data-src="img/products/shoes/1_b.jpg" alt=""> -->
 							</a>
 							<div data-countdown="2019/05/15" class="countdown"></div>
 						</figure>
 						<div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>
+<<<<<<< HEAD
 						<a href="index.php?act=spct&id=<?= $sp['id']?>">
 							<h3><?=$sp['name']?></h3>
 						</a>
 						<div class="price_box">
 							<span class="new_price"><?=$sp['price']?>$</span>
+=======
+						<a href="product-detail-1.html">
+							<h3>Ghế Đơn</h3>
+						</a>
+						<div class="price_box">
+							<span class="new_price">$48.00</span>
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
 							<span class="old_price">$60.00</span>
 						</div>
 						<ul>
@@ -97,14 +129,200 @@
 					</div>
 					<!-- /grid_item -->
 				</div>
+<<<<<<< HEAD
 				<?php } ?>
+=======
+				<!-- /col -->
+				<div class="col-6 col-md-4 col-xl-3">
+					<div class="grid_item">
+						<span class="ribbon off">-30%</span>
+						<figure>
+							<a href="product-detail-1.html">
+								<img class="img-fluid lazy" src="img/producs/banlamvc.png"  alt="">
+								
+							</a>
+							<div data-countdown="2019/05/10" class="countdown"></div>
+						</figure>
+						<div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>
+						<a href="product-detail-1.html">
+							<h3>Bàn Học</h3>
+						</a>
+						<div class="price_box">
+							<span class="new_price">$90.00</span>
+							<span class="old_price">$170.00</span>
+						</div>
+						<ul>
+							<li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to favorites"><i class="ti-heart"></i><span>Add to favorites</span></a></li>
+							<li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to compare"><i class="ti-control-shuffle"></i><span>Add to compare</span></a></li>
+							<li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to cart"><i class="ti-shopping-cart"></i><span>Add to cart</span></a></li>
+						</ul>
+					</div>
+					<!-- /grid_item -->
+				</div>
+				<!-- /col -->
+				<div class="col-6 col-md-4 col-xl-3">
+					<div class="grid_item">
+						<span class="ribbon off">-50%</span>
+						<figure>
+							<a href="product-detail-1.html">
+								<img class="img-fluid lazy" src="img/producs/giuong.png"  alt="">
+								
+							</a>
+							<div data-countdown="2019/05/21" class="countdown"></div>
+						</figure>
+						<div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>
+						<a href="product-detail-1.html">
+							<h3> Giường Đôi</h3>
+						</a>
+						<div class="price_box">
+							<span class="new_price">$75.00</span>
+							<span class="old_price">$155.00</span>
+						</div>
+						<ul>
+							<li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to favorites"><i class="ti-heart"></i><span>Add to favorites</span></a></li>
+							<li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to compare"><i class="ti-control-shuffle"></i><span>Add to compare</span></a></li>
+							<li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to cart"><i class="ti-shopping-cart"></i><span>Add to cart</span></a></li>
+						</ul>
+					</div>
+					<!-- /grid_item -->
+				</div>
+				<!-- /col -->
+				<div class="col-6 col-md-4 col-xl-3">
+					<div class="grid_item">
+						<span class="ribbon new">New</span>
+						<figure>
+							<a href="product-detail-1.html">
+								<img class="img-fluid lazy" src="img/producs/noithat.png"  alt="">
+								
+							</a>
+						</figure>
+						<div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>
+						<a href="product-detail-1.html">
+							<h3>Bàn & Kệ Tủ gỗ</h3>
+						</a>
+						<div class="price_box">
+							<span class="new_price">$110.00</span>
+						</div>
+						<ul>
+							<li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to favorites"><i class="ti-heart"></i><span>Add to favorites</span></a></li>
+							<li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to compare"><i class="ti-control-shuffle"></i><span>Add to compare</span></a></li>
+							<li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to cart"><i class="ti-shopping-cart"></i><span>Add to cart</span></a></li>
+						</ul>
+					</div>
+					<!-- /grid_item -->
+				</div>
+				<!-- /col -->
+				<div class="col-6 col-md-4 col-xl-3">
+					<div class="grid_item">
+						<span class="ribbon new">New</span>
+						<figure>
+							<a href="product-detail-1.html">
+								<img class="img-fluid lazy" src="img/producs/Screenshot 2023-06-08 002834.jpg" alt="">
+								<!-- <img class="img-fluid lazy" src="img/products/product_placeholder_square_medium.jpg" data-src="img/products/shoes/5_b.jpg" alt=""> -->
+							</a>
+						</figure>
+						<div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>
+						<a href="product-detail-1.html">
+							<h3>Combo Bàn ăn & kệ bát</h3>
+						</a>
+						<div class="price_box">
+							<span class="new_price">$140.00</span>
+						</div>
+						<ul>
+							<li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to favorites"><i class="ti-heart"></i><span>Add to favorites</span></a></li>
+							<li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to compare"><i class="ti-control-shuffle"></i><span>Add to compare</span></a></li>
+							<li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to cart"><i class="ti-shopping-cart"></i><span>Add to cart</span></a></li>
+						</ul>
+					</div>
+					<!-- /grid_item -->
+				</div>
+				<!-- /col -->
+				<div class="col-6 col-md-4 col-xl-3">
+					<div class="grid_item">
+						<span class="ribbon new">New</span>
+						<figure>
+							<a href="product-detail-1.html">
+								<img class="img-fluid lazy" src="img/producs/Screenshot 2023-06-08 002856.jpg"  alt="" style="height:100%;">
+								<!-- <img class="img-fluid lazy" src="img/products/product_placeholder_square_medium.jpg" data-src="img/products/shoes/6_b.jpg" alt=""> -->
+							</a>
+						</figure>
+						<div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>
+						<a href="product-detail-1.html">
+							<h3>Giường Ngủ King Queen</h3>
+						</a>
+						<div class="price_box">
+							<span class="new_price">$130.00</span>
+						</div>
+						<ul>
+							<li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to favorites"><i class="ti-heart"></i><span>Add to favorites</span></a></li>
+							<li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to compare"><i class="ti-control-shuffle"></i><span>Add to compare</span></a></li>
+							<li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to cart"><i class="ti-shopping-cart"></i><span>Add to cart</span></a></li>
+						</ul>
+					</div>
+					<!-- /grid_item -->
+				</div>
+				<!-- /col -->
+				<div class="col-6 col-md-4 col-xl-3">
+					<div class="grid_item">
+						<span class="ribbon hot">Hot</span>
+						<figure>
+							<a href="product-detail-1.html">
+								<img class="img-fluid lazy" src="img/producs/Screenshot 2023-06-08 003206.jpg"  alt="">
+								<!-- <img class="img-fluid lazy" src="img/products/product_placeholder_square_medium.jpg" data-src="img/products/shoes/7_b.jpg" alt=""> -->
+							</a>
+						</figure>
+						<div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>
+						<a href="product-detail-1.html">
+							<h3>Bàn Ăn Bằng Gỗ</h3>
+						</a>
+						<div class="price_box">
+							<span class="new_price">$115.00</span>
+						</div>
+						<ul>
+							<li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to favorites"><i class="ti-heart"></i><span>Add to favorites</span></a></li>
+							<li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to compare"><i class="ti-control-shuffle"></i><span>Add to compare</span></a></li>
+							<li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to cart"><i class="ti-shopping-cart"></i><span>Add to cart</span></a></li>
+						</ul>
+					</div>
+					<!-- /grid_item -->
+				</div>
+				<!-- /col -->
+				<div class="col-6 col-md-4 col-xl-3">
+					<div class="grid_item">
+						<span class="ribbon hot">Hot</span>
+						<figure>
+							<a href="product-detail-1.html">
+								<img class="img-fluid lazy" src="img/producs/screenshot_1699683746.png" alt="">
+								<!-- <img class="img-fluid lazy" src="img/products/product_placeholder_square_medium.jpg" data-src="img/products/shoes/8_b.jpg" alt=""> -->
+							</a>
+						</figure>
+						<div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>
+						<a href="product-detail-1.html">
+							<h3>Bàn Gỗ có lót đệm</h3>
+						</a>
+						<div class="price_box">
+							<span class="new_price">$120.00</span>
+						</div>
+						<ul>
+							<li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to favorites"><i class="ti-heart"></i><span>Add to favorites</span></a></li>
+							<li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to compare"><i class="ti-control-shuffle"></i><span>Add to compare</span></a></li>
+							<li><a href="#0" class="tooltip-1" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to cart"><i class="ti-shopping-cart"></i><span>Add to cart</span></a></li>
+						</ul>
+					</div>
+					<!-- /grid_item -->
+				</div>
+				<!-- /col -->
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
 			</div>
 			<!-- /row -->
 		</div>
 		<!-- /container -->
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> f94e9b51e171f8a6fd912b843cc08ac26b3dd16f
 		<div class="featured lazy" data-bg="url(img/banner/bg-testimonial6.webp)">
 			<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.5)">
 				<div class="container margin_60">
